@@ -8,8 +8,8 @@ body {
 }
 
 .container {
-  width: 500px;   /* This sets the width */
-  margin: 40px auto; /* This automatically sets left/right margins */
+  width: 500px;
+  margin: 40px auto;
 }
 
 .card-white {
@@ -35,7 +35,6 @@ h2 {
 .icon {
   color: #b8b8ff;
   transition: 0.3s ease;
-  size:
 }
 
 .icon:hover {
@@ -91,3 +90,4 @@ ol {
   text-align: left;
   width: auto;
 }
+/* #hello */
