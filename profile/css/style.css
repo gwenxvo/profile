@@ -1,0 +1,95 @@
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/table.css");
+@import url("components/tab.css");
+
+body {
+  color: #1c2321;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.img-profile {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  top: -75px;
+}
+
+.img-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(62, 62, 62);
+}
+
+p {
+  font-size: 14px;
+}
+
+.list-inline {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.icon:hover {
+  font-size: 55px;
+  color: rgb(34, 32, 36);
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.img-event {
+  object-fit: cover;
+}
+
+
+/* @media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
